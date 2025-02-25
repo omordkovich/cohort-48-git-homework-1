@@ -20,6 +20,15 @@ li {
   margin: 0;
 }
 
+.card {
+  display: flex;
+  width: 500px;
+  gap: 4px;
+  min-height: 200px;
+  max-height: 500px;
+  background-color: green;
+}
+
 #root {
   flex: 1;
   display: flex;
